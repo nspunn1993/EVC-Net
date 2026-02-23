@@ -19,6 +19,7 @@ Install the dependencies using:
 
 pip install -r requirements.txt
 
+```
 
 ## Usage
 
@@ -38,3 +39,4 @@ python train.py
 If you utilize this code or model in your research, please cite our paper accordingly.
 
 ```
+
