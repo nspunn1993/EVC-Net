@@ -16,4 +16,25 @@ EVC-Net is a hybrid deep learning framework designed to automate the classificat
 
 Install the dependencies using:
 ```bash
+
 pip install -r requirements.txt
+
+
+## Usage
+
+The primary model definition is located in `model.py`. The `EVCNet` class requires the definition of the number of target classes (e.g., `num_classes=2` for binary classification and `num_classes=8` for multi-class).
+
+### Training
+
+Execute `train.py` to initiate the training loop. The script includes automated mixed-precision training, early stopping, and a learning rate scheduler (`ReduceLROnPlateau`). Ensure your dataset is formatted as a standard PyTorch `DataLoader` before execution.
+
+```bash
+python train.py
+
+```
+
+## Citation
+
+If you utilize this code or model in your research, please cite our paper accordingly.
+
+```
